@@ -9,6 +9,8 @@ var move = key_right - key_left;
 
 hsp = move * walksp;
 
+vsp = vsp + grv;
+
 //horizontal collision
 if (place_meeting(x+hsp,y,oWall))
 {
@@ -20,3 +22,15 @@ if (place_meeting(x+hsp,y,oWall))
 }
 
 x = x + hsp;
+
+//vert collision
+if (place_meeting(x,y+vsp,oWall))
+{
+	while (!place_meeting(x,y+sign(vsp),oWall)) 
+	{
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+}
+
+y = y + vsp;
