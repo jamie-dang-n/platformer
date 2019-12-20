@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "223e3bce-78e1-4a0e-9181-0e304892bbf9",
+            "Value": {
+                "id": "4cbdecf0-790f-4ac4-9ec4-e38b6200da64",
+                "resourcePath": "objects\\oPlayer\\oPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2b5c7629-4938-461a-b462-8a246bf87407",
+            "Value": {
+                "id": "da4d9b16-8a8f-430f-b301-3976dadc187f",
+                "resourcePath": "sprites\\sWall\\sWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2c7b838f-a077-449e-be5a-f0b691a94d6a",
             "Value": {
                 "id": "8e7d1feb-3011-4a3c-9757-88058d2dfdaf",
@@ -95,6 +111,14 @@
             }
         },
         {
+            "Key": "7f8b17a8-0fe9-423f-95a1-66d7d6edf1d9",
+            "Value": {
+                "id": "5b1539e5-277e-4b28-a737-b36290272680",
+                "resourcePath": "sprites\\sPlayer\\sPlayer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9da0b298-acb1-45c2-b34a-a688adf8e1b9",
             "Value": {
                 "id": "29beb32e-40a0-48be-acc3-922f79a04e22",
@@ -132,6 +156,14 @@
                 "id": "e7c342a1-72ab-4531-9fab-daec7e306503",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aafdb163-ba47-4a1d-a2cc-c31c85675b47",
+            "Value": {
+                "id": "d7a36276-7a8d-49f6-b9bf-5d31f88c7185",
+                "resourcePath": "objects\\oWall\\oWall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
